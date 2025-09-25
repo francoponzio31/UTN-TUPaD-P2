@@ -1,0 +1,9 @@
+@startuml
+package ejercicio9 {
+ class CitaMedica
+ class Paciente
+ class Profesional
+ CitaMedica --> Paciente : unidireccional
+ CitaMedica --> Profesional : unidireccional
+}
+@enduml

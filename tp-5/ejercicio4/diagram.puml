@@ -1,0 +1,10 @@
+@startuml
+package ejercicio4 {
+ class TarjetaDeCredito
+ class Cliente
+ class Banco
+ TarjetaDeCredito --> Cliente : asociación bidireccional
+ Cliente --> TarjetaDeCredito
+ TarjetaDeCredito o-- Banco : agregación
+}
+@enduml

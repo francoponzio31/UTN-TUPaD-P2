@@ -1,0 +1,10 @@
+@startuml
+package ejercicio10 {
+ class CuentaBancaria
+ class ClaveSeguridad
+ class Titular
+ CuentaBancaria *-- ClaveSeguridad : composición
+ CuentaBancaria --> Titular : asociación bidireccional
+ Titular --> CuentaBancaria
+}
+@enduml

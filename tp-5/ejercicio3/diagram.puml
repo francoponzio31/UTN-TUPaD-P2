@@ -1,0 +1,9 @@
+@startuml
+package ejercicio3 {
+ class Libro
+ class Autor
+ class Editorial
+ Libro --> Autor : asociación unidireccional
+ Libro o-- Editorial : agregación
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+package ejercicio2 {
+ class Celular
+ class Bateria
+ class Usuario
+ Celular o-- Bateria : agregación
+ Celular --> Usuario : asociación bidireccional
+ Usuario --> Celular
+}
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+package ejercicio14 {
+ class EditorVideo
+ class Proyecto
+ class Render
+ EditorVideo ..> Render : dependencia de creación
+ Render --> Proyecto : asociación unidireccional
+}
+@enduml

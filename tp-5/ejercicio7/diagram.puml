@@ -1,0 +1,10 @@
+@startuml
+package ejercicio7 {
+ class Vehiculo
+ class Motor
+ class Conductor
+ Vehiculo o-- Motor : agregación
+ Vehiculo --> Conductor : asociación bidireccional
+ Conductor --> Vehiculo
+}
+@enduml

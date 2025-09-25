@@ -1,0 +1,9 @@
+@startuml
+package ejercicio12 {
+ class Calculadora
+ class Impuesto
+ class Contribuyente
+ Calculadora ..> Impuesto : dependencia de uso (parámetro)
+ Impuesto --> Contribuyente : asociación unidireccional
+}
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+package ejercicio11 {
+ class Reproductor
+ class Cancion
+ class Artista
+ Reproductor ..> Cancion : dependencia de uso (parámetro)
+ Cancion --> Artista : asociación unidireccional
+}
+@enduml

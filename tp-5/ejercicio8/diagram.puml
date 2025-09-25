@@ -1,0 +1,9 @@
+@startuml
+package ejercicio8 {
+ class Documento
+ class FirmaDigital
+ class Usuario
+ Documento *-- FirmaDigital : composición
+ FirmaDigital o-- Usuario : agregación
+}
+@enduml

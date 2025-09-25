@@ -1,0 +1,9 @@
+@startuml
+package ejercicio6 {
+ class Reserva
+ class Cliente
+ class Mesa
+ Reserva --> Cliente : asociación unidireccional
+ Reserva o-- Mesa : agregación
+}
+@enduml

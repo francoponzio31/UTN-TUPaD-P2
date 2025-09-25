@@ -1,0 +1,19 @@
+@startuml
+package ejercicio1 {
+  class Pasaporte {
+     - numero : String
+     - fechaEmision : String 
+     }
+  class Foto { 
+    - imagen : String
+    - formato : String 
+    }
+  class Titular {
+     - nombre : String
+    - dni : String 
+    }
+  Pasaporte *-- Foto : composición
+  Pasaporte --> Titular : asociación bidireccional
+  Titular --> Pasaporte
+}
+@enduml

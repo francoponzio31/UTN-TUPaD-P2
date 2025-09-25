@@ -1,0 +1,10 @@
+@startuml
+package ejercicio5 {
+ class Computadora
+ class PlacaMadre
+ class Propietario
+ Computadora *-- PlacaMadre : composición
+ Computadora --> Propietario : asociación bidireccional
+ Propietario --> Computadora
+}
+@enduml

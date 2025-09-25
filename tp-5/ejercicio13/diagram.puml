@@ -1,0 +1,9 @@
+@startuml
+package ejercicio13 {
+ class GeneradorQR
+ class CodigoQR
+ class Usuario
+ GeneradorQR ..> CodigoQR : dependencia de creación (crea objeto)
+ CodigoQR --> Usuario : asociación unidireccional
+}
+@enduml
